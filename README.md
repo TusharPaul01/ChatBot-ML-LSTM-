@@ -1,5 +1,6 @@
 # ChatBot 
 ChatBot for university purpose:
+
 Scroll down to see output images
 Model is trained over the intents.json file.
 LSTM model is used to create the ChatBot.
