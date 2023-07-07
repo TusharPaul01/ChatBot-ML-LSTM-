@@ -5,7 +5,7 @@ Scroll down to see output images
 Model is trained over the intents.json file.
 LSTM model is used to create the ChatBot.
 
-Link : https://strident-narrow-goatfish.anvil.app/ 
+Chatbot Link : https://strident-narrow-goatfish.anvil.app/ 
 
 Steps & Explaination :
 
