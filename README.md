@@ -1,10 +1,6 @@
 # ChatBot 
 ChatBot for university purpose:
 
-Scroll down to see output images
-Model is trained over the intents.json file.
-LSTM model is used to create the ChatBot.
-
 Chatbot Link : https://strident-narrow-goatfish.anvil.app/ 
 
 ![image](https://github.com/TusharPaul01/ChatBot-ML-LSTM-/assets/97314846/fda8d0a2-8421-4106-8f93-7d754a2416f7)
