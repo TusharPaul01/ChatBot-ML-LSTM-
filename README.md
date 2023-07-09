@@ -7,6 +7,9 @@ LSTM model is used to create the ChatBot.
 
 Chatbot Link : https://strident-narrow-goatfish.anvil.app/ 
 
+![image](https://github.com/TusharPaul01/ChatBot-ML-LSTM-/assets/97314846/fda8d0a2-8421-4106-8f93-7d754a2416f7)
+![image](https://github.com/TusharPaul01/ChatBot-ML-LSTM-/assets/97314846/918810ce-102c-4346-9d71-a583aeacf847)
+
 Steps & Explaination :
 
 The code you provided appears to be a chatbot implementation using a neural network model for intent classification. It consists of two parts: training the chatbot model and using the trained model for chatbot interaction.
@@ -37,7 +40,5 @@ The chatbot interaction continues until the user types "quit" to exit the progra
 
 Note: Please make sure you have the necessary dependencies installed, such as TensorFlow and scikit-learn, before running this code. Also, ensure that you have the required JSON files (`intents.json` and `intents_final.json`) in the correct locations.
 
-![image](https://github.com/TusharPaul01/ChatBot-ML-LSTM-/assets/97314846/fda8d0a2-8421-4106-8f93-7d754a2416f7)
-![image](https://github.com/TusharPaul01/ChatBot-ML-LSTM-/assets/97314846/918810ce-102c-4346-9d71-a583aeacf847)
 
 
