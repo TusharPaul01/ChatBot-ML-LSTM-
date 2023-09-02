@@ -1,5 +1,6 @@
 # ChatBot 
 ChatBot for University purpose:
+The chatbot elevates the university website, providing valuable information to users, students, and parents. 📚💡
 
 **Chatbot Link** : https://strident-narrow-goatfish.anvil.app/ 
 
@@ -32,7 +33,8 @@ In the chatbot interaction part:
 6. The predicted intent is mapped back to its original label using the label encoder.
 7. A response is randomly selected from the intent's available responses and displayed as the chatbot's reply.
 
-The chatbot interaction continues until the user types "quit" to exit the program.
+This model has been given an user interface by creating a web app using Anvil. That also requires web designing, building interconnection between model & webapp using python statements.
+Finally, the model is deployed on AWS (Amazon Web Services) so that ML model can run 24/7 without any kind interruption. 
 
 Note: Please make sure you have the necessary dependencies installed, such as TensorFlow and scikit-learn, before running this code. Also, ensure that you have the required JSON files (`intents.json` and `intents_final.json`) in the correct locations.
 
