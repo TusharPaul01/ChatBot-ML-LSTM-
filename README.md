@@ -1,6 +1,6 @@
 # ChatBot 
 ChatBot for University purpose:
-The chatbot elevates the university website, providing valuable information to users, students, and parents. 📚💡
+The chatbot elevates the university website, providing valuable information to users, students, and parents.📚💡
 
 **Chatbot Link** : https://strident-narrow-goatfish.anvil.app/ 
 
