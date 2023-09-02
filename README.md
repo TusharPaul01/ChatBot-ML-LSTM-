@@ -1,5 +1,5 @@
 # ChatBot 
-ChatBot for university purpose:
+ChatBot for University purpose:
 
 **Chatbot Link** : https://strident-narrow-goatfish.anvil.app/ 
 
