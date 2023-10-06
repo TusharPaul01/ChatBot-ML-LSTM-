@@ -2,6 +2,9 @@
 ChatBot for University purpose:
 The chatbot elevates the university website, providing valuable information to users, students & parents.📚💡
 
+LIVE ON JAYPEE UNIVERSITY OFFICIAL WEBSITE (https://www.juit.ac.in/) 
+-> Currently have more than 2500+ active users.
+
 **Chatbot Link** : https://strident-narrow-goatfish.anvil.app/ 
 
 ![image](https://github.com/TusharPaul01/ChatBot-ML-LSTM-/assets/97314846/fda8d0a2-8421-4106-8f93-7d754a2416f7)
