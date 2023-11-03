@@ -12,7 +12,7 @@ LIVE ON JAYPEE UNIVERSITY'S OFFICIAL WEBSITE (https://www.juit.ac.in/)
 
 Steps & Explaination :
 
-The code you provided appears to be a chatbot implementation using a neural network model for intent classification. It consists of two parts: training the chatbot model & using the trained model for chatbot interaction.
+The code you provided appears to be a chatbot implementation using a neural network model for intent classification. It consists of two parts: training the chatbot model and using the trained model for chatbot interaction.
 
 In the training part:
 1. The code loads the training data from a JSON file (`intents.json`) containing text examples and corresponding intents.
