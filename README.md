@@ -1,6 +1,6 @@
 # ChatBot 
 ChatBot for University purpose:
-The chatbot elevates the university website, providing valuable information to users, students and parents.📚💡
+The chatbot elevates the university website, providing valuable information to users, students & parents.📚💡
 
 LIVE ON JAYPEE UNIVERSITY'S OFFICIAL WEBSITE (https://www.juit.ac.in/) 
 <br>Currently have more than 2500+ active users.
