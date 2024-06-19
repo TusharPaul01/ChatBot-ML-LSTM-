@@ -1,0 +1,1862 @@
+{
+   "intents": 
+   [
+      {
+         "intent": "greeting",
+         "text": [
+            "Hi",
+            "How are you?",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "What's up",
+            "how are ya",
+            "heyy",
+            "whatsup"
+         ],
+         "responses": [
+            "Hello!",
+            "Good to see you again!",
+            "Hi there, how can I help?"
+         ],
+         "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context": {
+            "in": "",
+            "out": "GreetingUserRequest",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "goodbye",
+         "text": [
+            "see you",
+            "bye bye",
+            "See you later",
+            "Goodbye",
+            "I am Leaving",
+            "Bye",
+            "Have a Good day",
+            "talk to you later",
+            "ttyl",
+            "i got to go",
+            "gtg",
+            "ciao",
+            "bye now",
+            "okay then"
+         ],
+         "responses": [
+            "Sad to see you go :(",
+            "Talk to you later",
+            "Goodbye!",
+            "Come back soon"
+         ],
+         "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context": {
+            "in": "",
+            "out": "LeavingUserRequest",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "creator",
+         "text": [
+            "what is the name of your developers",
+            "what is the name of your creators",
+            "what is the name of the developers",
+            "what is the name of the creators",
+            "who created you",
+            "your developers",
+            "your creators",
+            "who are your developers",
+            "you are made by",
+            "you are made by whom",
+            "who created you",
+            "who create you",
+            "creators",
+            "Developed you",
+            "developed",
+            "who made you",
+            "who designed you"
+         ],
+         "responses": [
+            "Students of JUIT: Tushar Paul (201007) & Anmol Bansal (201274)"
+         ],
+         "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context": {
+            "in": "",
+            "out": "AskingCreator",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "name",
+         "text": [
+            "name",
+            "your name",
+            "do you have a name",
+            "what are you called",
+            "what is your name",
+            "what should I call you",
+            "whats your name?",
+            "what are you",
+            "who are you",
+            "who is this",
+            "what am i chatting to",
+            "who am i taking to",
+            "what are you"
+         ],
+         "responses": [
+            "I am your helper for college admission related queries."
+         ],
+         "extension": {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context": {
+            "in": "",
+            "out": "AskingMyName",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "hours",
+         "text": [
+            "timing of college",
+            "what is college timing",
+            "working days",
+            "when are you guys open",
+            "what are your hours",
+            "hours of operation",
+            "when is the college open",
+            "college timing",
+            "what about college timing",
+            "is college open on saturday",
+            "tell something about college timing",
+            "what is the college  hours",
+            "when should i come to college",
+            "when should i attend college",
+            "what is my college time",
+            "college timing",
+            "timing college"
+         ],
+         "responses": [
+            "9AM to 5 PM on Monday to Friday & 9 AM to 1 PM on Saturday"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "CollegeTimings",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "number",
+         "text": [
+            "more info",
+            "contact info",
+            "college telephone number",
+            "college number",
+            "What is your contact no",
+            "Contact number?",
+            "how to call you",
+            "College phone no?",
+            "how can i contact you",
+            "Can i get your phone number",
+            "how can i call you",
+            "phone number",
+            "phone no",
+            "call",
+            "where to call",
+            "phone number",
+            "contact info",
+            "contact information"
+         ],
+         "responses": [
+            "You can contact at: 1792257999 or visit: https://www.juit.ac.in/contact/address"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "ContactRequest",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "course",
+         "text": [
+            "list of courses",
+            "list of courses offered",
+            "list of courses offered in",
+            "what are the courses offered in your college?",
+            "courses?",
+            "courses offered",
+            "courses offered in (your univrsity(UNI) name)",
+            "courses you offer",
+            "branches?",
+            "courses available at UNI?",
+            "branches available at your college?",
+            "what are the courses in UNI?",
+            "what are branches in UNI?",
+            "what are courses in UNI?",
+            "branches available in UNI?",
+            "can you tell me the courses available in UNI?",
+            "can you tell me the branches available in UNI?",
+            "computer engineering?",
+            "computer",
+            "Computer engineering?",
+            "it",
+            "IT",
+            "Information Technology",
+            "AI/Ml",
+            "Mechanical engineering",
+            "Chemical engineering",
+            "Civil engineering"
+         ],
+         "responses": [
+            "BBA, BSC, BTECH (CSE, ECE, IT, BT, BI, Civil), MTECH, MSC, PHD"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "AskingCourses",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "fees",
+         "text": [
+            "information about fee",
+            "information on fee",
+            "tell me the fee",
+            "college fee",
+            "fee per semester",
+            "what is the fee of each semester",
+            "what is the fees of each year",
+            "what is fee",
+            "what is the fees",
+            "how much is the fees",
+            "fees for first year",
+            "fees",
+            "about the fees",
+            "tell me something about the fees",
+            "What is the fees of hostel",
+            "how much is the fees",
+            "hostel fees",
+            "fees for AC room",
+            "fees for non-AC room",
+            "fees for Ac room for girls",
+            "fees for non-Ac room for girls",
+            "fees for Ac room for boys",
+            "fees for non-Ac room for boys"
+         ],
+         "responses": [
+            "For fees details visit: https://www.juit.ac.in/fee-detail-2023-Admissions"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "FeeStructure",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "location",
+         "text": [
+            "where is the college located",
+            "college is located at",
+            "where is college",
+            "where is college located",
+            "address of college",
+            "how to reach college",
+            "college location",
+            "college address",
+            "wheres the college",
+            "how can I reach college",
+            "whats is the college address",
+            "what is the address of college",
+            "address",
+            "location"
+         ],
+         "responses": [
+            "Location: Waknaghat, P.O. Waknaghat, Teh Kandaghat, Distt. Solan PIN-173 234 (H.P.), India"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+      " context":  {
+            "in": "",
+            "out": "AddressOfCollege",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "hostel",
+         "text": [
+            "hostel facility",
+            "hostel servive",
+            "hostel location",
+            "hostel address",
+            "hostel facilities",
+            "hostel fees",
+            "Does college provide hostel",
+            "Is there any hostel",
+            "Where is hostel",
+            "do you have hostel",
+            "do you guys have hostel",
+            "hostel",
+            "hostel capacity",
+            "what is the hostel fee",
+            "how to get in hostel",
+            "what is the hostel address",
+            "how far is hostel from college",
+            "hostel college distance",
+            "where is the hostel",
+            "how big is the hostel",
+            "distance between college and hostel",
+            "distance between hostel and college",
+            "rooms",
+            "hostel rooms available",
+            "residencial details",
+            "residences for students",
+            "student accomodations"
+            
+         ],
+         "responses": [
+            "For hostel details visit: https://www.juit.ac.in/aspirant-hostels"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "HostelRelatedQueries",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "event",
+         "text": [
+            "events organised",
+            "list of events",
+            "list of events organised in college",
+            "list of events conducted in college",
+            "What events are conducted in college",
+            "Are there any event held at college",
+            "Events?",
+            "functions",
+            "what are the events",
+            "tell me about events",
+            "what about events",
+            "university events",
+            "upcoming events"
+         ],
+         "responses": [
+            "For event details visit: https://www.juit.ac.in/events&type=archive"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "EventRelatedQueries",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "document",
+         "text": [
+            "document to bring",
+            "documents needed for admision",
+            "documents needed at the time of admission",
+            "documents needed during admission",
+            "documents required for admision",
+            "documents required at the time of admission",
+            "documents required during admission",
+            "What document are required for admission",
+            "Which document to bring for admission",
+            "documents",
+            "what documents do i need",
+            "what documents do I need for admission",
+            "documents needed",
+            "addmission procedures",
+            "admissions requirement",
+            "admission details"
+         ],
+         "responses": [
+            "Kindly consult the E-brochure for details regarding documents. Download brochure here: https://www.juit.ac.in/download-brochure"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "DocumentsForAdmission",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "floors",
+         "text": [
+            
+            "building height",
+            "How many floors does college have",
+            "floors in college",
+            "floors in college",
+            "how tall is UNI's College of Engineering college building",
+            "floors"
+         ],
+         "responses": [
+            "There are 5 floors in Academic Building & in hostels we have an average of 10 floors."
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "FloorQueries",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "syllabus",
+         "text": [
+            "Syllabus for IT",
+            "what is the Information Technology syllabus",
+            "syllabus",
+            "timetable",
+            "what is IT syllabus",
+            "syllabus",
+            "What is next lecture",
+            "what to study",
+            "what all topics are included in courses",
+            "course topics",
+            "subjects in curriculum"
+         ],
+         "responses": [
+            "To know about syllabus visit: https://www.juit.ac.in/coursescurriculum\""
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "SyllabusQueries",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "library",
+         "text": [
+            "is there any library",
+            "library facility",
+            "library facilities",
+            "do you have library",
+            "does the college have library facility",
+            "college library",
+            "where can i get books",
+            "book facility",
+            "Where is library",
+            "Library",
+            "Library information",
+            "Library books information",
+            "Tell me about library",
+            "how many libraries"
+         ],
+         "responses": [
+            "Monday to Friday: 8:45 AM to 23:59 (MID NIGHT), Saturday and Sunday 8:45 AM to 8:00 PM",
+            "There is one huge and spacious library.Timings are 8am to 6pm and for more visit: https://www.juit.ac.in/attachments/Library(Manual)Policy_2022.pdf",
+            "For details check: https://www.juit.ac.in/attachments/Library(Manual)Policy_2022.pdf or contact: 01792-239382"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "LibraryHours",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "infrastructure",
+         "text": [
+            "how is college infrastructure",
+            "infrastructure",
+            "college infrastructure",
+            "how are college buildings",
+            "how many buildings",
+            "number of buildings"
+         ],
+         "responses": [
+            "It encompasses an Academic Block with Auditorium, Lecture Theatres, Tutorial rooms, Labs, Administrative Offices, Faculty Offices and Library. The second terrace of the hill has all the hostels, Students Mess, Guestrooms, Helipad, Outdoor sports facilities and Dispensary."    
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "Infra",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "canteen",
+         "text": [
+            "food facilities",
+            "canteen facilities",
+            "canteen facility",
+            "is there any canteen",
+            "Is there a cafetaria in college",
+            "Does college have canteen",
+            "Where is canteen",
+            "where is cafetaria",
+            "canteen",
+            "Food",
+            "Cafetaria",
+            "places to eat"
+         ],
+         "responses": [
+            "Our university has canteen with variety of food available"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+      " context":  {
+            "in": "",
+            "out": "Snacking",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "menu",
+         "text": [
+            "food menu",
+            "food in canteen & mess",
+            "Whats there on menu",
+            "what is available in college canteen",
+            "what foods can we get in college canteen",
+            "food variety",
+            "What is there to eat?",
+            "mess menu",
+            "food at mess",
+            "what is there in mess",
+            "is there a mess"
+         ],
+         "responses": [
+            "Hygienic vegetarian food is provided at cafeteria.",
+            "Please refer to the following mess menu: https://lightningmcqueen-95.github.io/collage/mess-timetable.html"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "Menu",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "placement",
+         "text": [
+            "What is college placement",
+            "Which companies visit in college",
+            "What is average package",
+            "companies visit",
+            "best companies for placement",
+            "best companies",
+            "package",
+            "About placement",
+            "placement",
+            "recruitment",
+            "companies"
+         ],
+         "responses": [
+            "To know about placements visit: https://www.juit.ac.in/placementstatistics"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "Placements",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "hostel",
+         "text": [
+            "Room",
+            "hostels",
+            "Hostel prices",
+            "Hostel sizes",
+            "hostel number",
+            "hostel accomodation"
+
+         ],
+         "responses": [
+            "For hostel detail visit: https://www.juit.ac.in/aspirant-hostels"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "HostelQueries",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "branches",
+         "text": [
+            "branches available",
+            "available subjects",
+            "majors",
+            "Branch options",
+            "What are the available branches",
+            "Subjects",
+            "Branches offered"
+         ],
+         "responses": [
+            "BBA, BSC, BTECH (CSE, ECE, IT, BT, BI, Civil), MTECH, MSC, PHD"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "BranchQuestions",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "ECE HOD",
+         "text": [
+            "HOD of electronics",
+            "Electrical head",
+            "Who is ECE HOD?",
+            "electrical hod",
+            "ece head of department",
+            "department of ece hod",
+            "Electronics and communication engineering hod",
+            "Electronics and communication engineering head of department"
+         ],
+         "responses": [
+            "Dr. Rajiv Kumar"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "ECEHODquery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "BI/BT HOD",
+         "text": [
+            "HOD of biotechnology",
+            "Who is HOD of bt/bi",
+            "Biotech head",
+            "Bioinformatics hod",
+            "bt/bi head of department",
+            "department of bt/bi hod",
+            "Biotechnology and Bio-informatics hod",
+            "Biotechnology and Bio-informatics head of department"
+         ],
+         "responses": [
+            "Dr. Sudhir Kumar"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "BT/BIHODquery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "CIVIL HOD",
+         "text": [
+            "HOD of civil",
+            "Civil head",
+            "CE head",
+            "Ce hod",
+            "Civil engineering hod",
+            "Civil head of department",
+            "department of civil hod",
+            "Who is civil hod",
+            "Civil engineering head of department"
+         ],
+         "responses": [
+            "Dr. Ashok Kumar Gupta"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "CIVILHODquery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "MATHS HOD",
+         "text": [
+            "HOD of Mathematics",
+            "Maths head",
+            "mathematics hod",
+            "maths head of department",
+            "department of Mathematics hod",
+            "Who is maths hod",
+            "Mathematics head of department"
+         ],
+         "responses": [
+            "Dr. Rakesh Kumar Bajaj"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "MATHSHODquery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "PHYSICS HOD",
+         "text": [
+            "HOD of Physics",
+            "Physics head",
+            "physics and material sciences hod",
+            "physics head of department",
+            "department of physics hod",
+            "Who is physics hod",
+            "Physics and material sciences head of department"
+         ],
+         "responses": [
+            "Dr. P.B. Barman"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "PHYSICSHODquery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "DEAN",
+         "text": [
+            "Who is the dean",
+            "college dean",
+            "dean of the college",
+            "name of college dean",
+            "dean name",
+            "juit dean"
+         ],
+         "responses": [
+            "Dr. Ashok Kumar Gupta"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "ClgDeanQuery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "Vice Chancellor",
+         "text": [
+            "Who is the vice chancellor",
+            "college vc",
+            "vice chancellor of the college",
+            "name of college vc",
+            "vice chancellor name",
+            "juit vice chancellor"
+         ],
+         "responses": [
+            "Dr. Rajendra Kumar Sharma"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "VCQuery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "HSS HOD",
+         "text": [
+            "Who is the hss hod",
+            "humanities hod",
+            "department of humanities head",
+            "head of hss",
+            "humanities head",
+            "juit humanities hod",
+            "english hod",
+            "eng dept head",
+         "english department hod"
+         ],
+         "responses": [
+            "DR. Amit Srivastava"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "HSSHODQuery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "area",
+         "text": [
+            "how big is university",
+            "college area",
+            "university area",
+            "is uni big",
+            "is university big?",
+            "size of university",
+            "uni size",
+            "college size",
+            "campus size",
+            "campus area",
+            "campus length",
+            "how big is the campus?"
+         ],
+         "responses": [
+            "25.00 acres"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "CampusArea",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "climate",
+         "text": [
+            "climate of university",
+            "environment",
+            "university climate",
+            "weather in university",
+            "how is the weather",
+            "is it cold",
+            "uni climate",
+            "weather",
+            "climate"
+         ],
+         "responses": [
+            "The average annual temperature is 16.0 °C.Temperatures typically range from -4 °C (25 °F) to 32 °C (90 °F) over the course of a year."
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "UniversityClimate",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "nearby",
+         "text": [
+            "cities near university",
+            "places near college",
+            "close by city",
+            "city close to college",
+            "closest city for uni"
+         ],
+         "responses": [
+            "The university is around 22 km from Shimla and 25 km from Solan."
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "CityNearCollege",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "lateral",
+         "text": [
+            "lateral entry",
+            "procedure for lateral admission",
+            "lateral admissions",
+            "2nd yr admission",
+            "admissions lateral"
+         ],
+         "responses": [
+            "Kindly refer to lateral entry brochure here: https://www.juit.ac.in/admissions_all/Lateral_ProcedureBTECH2023.pdf"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "LateralEntry",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "exchange",
+         "text": [
+            "student exchange program",
+            "exchange program",
+            "universities for exchange"
+         ],
+         "responses": [
+            "For details about exchange program refer to link: https://www.juit.ac.in/students-exchange-program"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "StudentExchange",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "facilities",
+         "text": [
+            "college amenities",
+            "college facilities",
+            "facilities provided",
+            "amenities provided",
+            "facility",
+            "amenity"
+         
+         ],
+         "responses": [
+            "Pollution-free smart campus | Pleasant weather year-round | Summer temp: 32-35°C for a month | Campus includes hostels, mess, guestrooms, helipad, sports facilities, dispensary"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "FacilityQues",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "webkiosk",
+         "text": [
+            "Webkiosk",
+            "attendance",
+            "Check student info",
+            "check attendance",
+            "webkiosk link",
+            "student interface"
+         ],
+         "responses": [
+            "For accessing webkiosk follow link: https://webkiosk.juit.ac.in:9443/"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "WebKioskLink",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "NIRF",
+         "text": [
+            "Juit nirf",
+            "NIRF ranking",
+            "college NIRF ranking",
+            "college rankings",
+            "NIRF",
+            "nirf college ranking",
+            "Jaypee nirf ranking"
+      ],
+         "responses": [
+            "2023 NIRF Ranking: 150-200 "
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "NIRFRankingQuery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "Placement Record",
+         "text": [
+            "Past placements",
+            "placement records",
+            "placement history",
+            "placement record history",
+            "best placements past",
+            "placement record"
+      ],	
+         "responses": [
+            "Check Placement details here: https://www.juit.ac.in/juit-placements>"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "PlacementRecordLink",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "JYC",
+         "text": [
+            "What is JYC",
+            "JYC clubs",
+            "What all is in JYC",
+            "JYC clubs",
+            "JYC committees",
+            "Juit Youth Club members",
+            "what is Juit Youth Club?",
+            "Clubs",
+            "Committees",
+            "Other clubs"
+      ],	
+         "responses": [
+            "JUIT youth club, ACM-JUIT, IEEE-JUIT, SIAM-JUIT, TIEDC, UBA",
+            "Know more about JYC here: https://jyc.co.in/"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "JYCQuery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "Technical clubs",
+         "text": [
+            "Tech clubs",
+            "Technical clubs",
+            "Tech communities",
+            "Technical communities",
+            "Different Technical clubs",
+            "Are there tech club",
+         "JYC tech club",
+         "tech based clubs",
+         "tech bodies",
+         "technical student bodies",
+         "technical groups",
+         "tech groups",
+         "tech based groups"
+      ],	
+         "responses": [
+            "ACM-JUIT: https://juit.acm.org/ | IEEE-JUIT: https://ieeejuit.co.in/ | JYC TECH CLUB: https://jyc.co.in/"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "TechClubQuery",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "Medical Facilities",
+         "text": [
+            "medical facilities",
+            "medical",
+            "dispensary",
+            "medical services",
+            "dctors in college",
+            "Is there a dispensary?",
+         "Where dispensary?"
+      ],	
+         "responses": [
+            "Medical facility available 24 hours in the campus dispensary and contact no 01792-239318.",
+            "Know more about medical facilities here: https://www.juit.ac.in/aspirant-dispensary"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "MedicalFacility",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "Transport Facilities",
+         "text": [
+            "transport facilities",
+            "transport",
+            "bus service",
+            "vehicles",
+            "Is there transport?",
+            "Are there buses",
+         "Is transport provided",
+         "bus timings",
+         "bus timing",
+         "When does bus come"
+      ],	
+         "responses": [
+            "Yes bus facility is available. Check the link: https://lightningmcqueen-95.github.io/collage/mess-timetable.html",
+            "Bus timing - 8:10 AM and 8:20 AM in morning, and 5:00 PM and 5:15 PM in evening."
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "TransportFacility",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "LinkedIn",
+         "text": [
+            "linkedin",
+            "linkedin profile",
+            "LinkedIn profile",
+            "college linkedin profile"
+      ],	
+         "responses": [
+            "LinkedIn profile: https://www.linkedin.com/school/jaypee-university-of-information-technology-waknaghat/"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "LinkedInProfile",
+            "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "ithod",
+         "text": [
+            "Who is HOD",
+            "it hod",
+            "name of it hod"
+         ],
+         "responses": [
+            "Dr. Vivek Kumar Sehgal"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "HODs",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "computerhod",
+         "text": [
+            "Who is computer HOD",
+            "Where is computer HOD",
+            "computer hod",
+            "name of computer hod",
+            "CSE hod",
+            "cs hod",
+            "cse department head"
+         ],
+         "responses": [
+            "Dr. Vivek Kumar Sehgal"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "ComputerHOD",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "extchod",
+         "text": [
+            "Who is extc HOD",
+            "Where is  extc HOD",
+            "extc hod",
+            "name of extc hod"
+         ],
+         "responses": [
+            "Please specify department."
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "DiffHODs",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "principal",
+         "text": [
+            "what is the name of principal",
+            "what is the principal name",
+            "principal name",
+            "Who is college principal",
+            "Where is principal's office",
+            "principal",
+            "name of principal"
+         ],
+         "responses": [
+            "Prof. Dr. Rajendra Kumar Sharma is the Vice Chancellor."
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "CollegePrincipal",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "sem",
+         "text": [
+            "exam dates",
+            "exam schedule",
+            "When is semester exam",
+            "Semester exam timetable",
+            "sem",
+            "semester",
+            "exam",
+            "when is exam",
+            "exam timetable",
+            "exam dates",
+            "when is semester"
+         ],
+         "responses": [
+            "Academic Calendar details: https://www.juit.ac.in/attachments/ACADEMICCALENDAR202324.pdf"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "AcademicCalendar",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "admission",
+         "text": [
+            "what is the process of admission",
+            "what is the admission process",
+            "How to take admission in your college",
+            "What is the process for admission",
+            "admission",
+            "how to get admission",
+            "admission process"
+         ],
+         "responses": [
+            "Addmission on merit through JEE Main and 10+2 marks merit basis. Application can be submitted online: https://www.juit.ac.in/juit-admissions",
+            "Kindly refer to the E- brochure which can be downloaded here: https://www.juit.ac.in/download-brochure"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "ProcessOfAdmission",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "scholarship",
+         "text": [
+            "scholarship",
+            "Is scholarship available",
+            "scholarship engineering",
+            "scholarship it",
+            "scholarship ce",
+            "scholarship mechanical",
+            "scholarship civil",
+            "scholarship chemical",
+            "scholarship for AI/ML",
+            "available scholarships",
+            "scholarship for computer engineering",
+            "scholarship for IT engineering",
+            "scholarship for mechanical engineering",
+            "scholarship for civil engineering",
+            "scholarship for chemical engineering",
+            "list of scholarship",
+            "comps scholarship",
+            "IT scholarship",
+            "mechanical scholarship",
+            "civil scholarship",
+            "chemical scholarship",
+            "automobile scholarship",
+            "first year scholarship",
+            "second year scholarship",
+            "third year scholarship",
+            "fourth year scholarship",
+            "state scholarship",
+            "govt scholarship",
+            "state govt scholarship",
+            "government scholarship"
+         ],
+         "responses": [
+            "30% concession in tuition fees for wards of military personnel | Additional 5% (total 35%) for war widows and persons with disabilities.",
+            "No state government scholarship"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "ScholarshipCriteria",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "college intake",
+         "text": [
+            "max number of students",
+            "number of seats per branch",
+            "number of seats in each branch",
+            "maximum number of seats",
+            "maximum students intake",
+            "What is college intake",
+            "how many stundent are taken in each branch",
+            "seat allotment",
+            "seats"
+         ],
+         "responses": [
+            "In undergraduate: 750 | In postgraduate: 54"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "Intake",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "uniform",
+         "text": [
+            "college dress code",
+            "college dresscode",
+            "what is the uniform",
+            "can we wear casuals",
+            "Does college have an uniform",
+            "Is there any uniform",
+            "uniform",
+            "what about uniform",
+            "do we have to wear uniform"
+         ],
+         "responses": [
+            "The uniform consists of a shirt, pant, tie, sweater vest and a blazer"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "UniformCollegeDressCode",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "committee",
+         "text": [
+            "what are the different committe in college",
+            "different committee in college",
+            "Are there any committee in college",
+            "Give me committee details",
+            "committee",
+            "how many committee are there in college"
+         ],
+         "responses": [
+            "For the various committe in college check this website: https://www.juit.ac.in/committees#"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "Committee",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "random",
+         "text": [
+            "I love you",
+            "Will you marry me",
+            "Do you love me"
+         ],
+         "responses": [
+            "I am not programmed for this, please ask appropriate query"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "Inappropriate",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "swear",
+         "text": [
+            "fuck",
+            "bitch",
+            "shut up",
+            "hell",
+            "stupid",
+            "idiot",
+            "dumb ass",
+            "asshole",
+            "fucker"
+         ],
+         "responses": [
+            "Please use appropriate language",
+            "Maintaining decency would be appreciated"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "InappropriateSwearWords",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "vacation",
+         "text": [
+            "holidays",
+            "when will semester starts",
+            "when will semester end",
+            "when is the holidays",
+            "list of holidays",
+            "Holiday in these year",
+            "holiday list",
+            "about vacations",
+            "about holidays",
+            "When is vacation",
+            "When is holidays",
+            "how long will be the vacation"
+         ],
+         "responses": [
+            "Academic calender is given to you by your class-soordinators after you join your respective classes",
+            "For further information consult the Academic calender on this website: https://www.juit.ac.in/academic-calendar"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "AcademicCalendar",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "sports",
+         "text": [
+            "sports and games",
+            "give sports details",
+            "sports infrastructure",
+            "sports facilities",
+            "information about sports",
+            "Sports activities",
+            "please provide sports and games information"
+         ],
+         "responses": [
+            "Our university encourages all-round development of students and hence provides sports facilities in the campus.",
+            "Various sports like Athletics, Basketball, Badminton, Football, Table Tennis, Volleyball, Cricket etc."
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "Sports",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "salutaion",
+         "text": [
+            "okk",
+            "okie",
+            "nice work",
+            "well done",
+            "good job",
+            "thanks for the help",
+            "Thank You",
+            "its ok",
+            "Thanks",
+            "Good work",
+            "k",
+            "ok",
+            "okay"
+         ],
+         "responses": [
+            "I am glad I helped you",
+            "Welcome, anything else I can assist you with?"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "Salutation",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "task",
+         "text": [
+            "what can you do",
+            "what are the thing you can do",
+            "things you can do",
+            "what can u do for me",
+            "how u can help me",
+            "why i should use you"
+         ],
+         "responses": [
+            "I can answer to low-intermediate questions regarding college",
+            "You can ask me questions regarding college, and I will try to answer them"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "Task",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "ragging",
+         "text": [
+            "ragging",
+            "is ragging practice active in college",
+            "does college have any antiragging facility",
+            "is there any ragging cases",
+            "is ragging done here",
+            "ragging against",
+            "antiragging facility",
+            "ragging juniors",
+            "ragging history",
+            "ragging incidents"
+         ],
+         "responses": [
+            "Ragging is prohibited",
+            "The campus is ragging free"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "Ragging",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      },
+      {
+         "intent": "Account Details",
+         "text": [
+            "Account Details",
+            "JUIT Account Details",
+            "JUIT Account Information",
+            "Account ",
+            "Bank Details",
+            "JUIT Bank Details"
+         ],
+         "responses": [
+            "Check the link to find the account details: https://www.juit.ac.in/juit_account_detail"
+         ],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+         },
+         "context":  {
+            "in": "",
+            "out": "account details",
+            "clear": true
+         },
+         "entityType": "NA",
+         "entities": []
+      }
+   ]
+}
